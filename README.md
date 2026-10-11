@@ -94,6 +94,13 @@ The project provides practical experience with:
 
 ▶️ [Watch Project Shadow Protocol — C++ Gameplay Programming Demo](https://youtu.be/ktnt_XhmTiI)
 
+## Portfolio
+
+🌐 **[Visit My Game Development Portfolio](https://deepak-game-dev.github.io/)**
+
+Explore my gameplay programming projects, demonstrations, and development work.
+
+
 
 ## Future Improvements
 
