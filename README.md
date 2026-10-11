@@ -90,6 +90,11 @@ The project provides practical experience with:
 - Managing mission objectives and progression.
 - Building a foundation for more advanced gameplay engineering projects.
 
+## Demo Video
+
+▶️ [Watch Project Shadow Protocol — C++ Gameplay Programming Demo](https://youtu.be/ktnt_XhmTiI)
+
+
 ## Future Improvements
 
 - Introduce a graphical game environment.
