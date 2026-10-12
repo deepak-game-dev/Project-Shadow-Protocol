@@ -38,7 +38,7 @@ bool CollisionSystem::MoveAndCollide(
 
     bool collided = false;
 
-    // Resolve X first.
+
     Vector3 candidate = position;
     candidate.x += movement.x;
 
@@ -61,7 +61,7 @@ bool CollisionSystem::MoveAndCollide(
     if (!collided)
         position.x = candidate.x;
 
-    // Resolve Z independently to permit wall sliding.
+
     candidate = position;
     candidate.z += movement.z;
 

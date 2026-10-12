@@ -133,11 +133,20 @@ void Game::UpdateAll(float deltaTime)
         movementData.velocity.z = 0.0f;
 
 
+
     if (inputSystem.IsPressed(Action::Attack))
     {
         if (player.IsAlive() && enemy.IsAlive())
+        {
             player.Attack(enemy);
+
+            if (!enemy.IsAlive())
+            {
+                std::cout << "\n\n*** ENEMY DEFEATED! ***\n";
+            }
+        }
     }
+
 
   
 
@@ -177,9 +186,7 @@ void Game::UpdateAll(float deltaTime)
     if (enemyMovementData.position.z != desiredEnemyPosition.z)
         enemyMovementData.velocity.z = 0.0f;
 
-    // -------------------------
-    // 5. Research drive interaction
-    // -------------------------
+  
 
     if (inputSystem.IsPressed(Action::Interact))
     {
